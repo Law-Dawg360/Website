@@ -26,8 +26,8 @@ buttonwithlink {
   font-family: "Times New Roman", serif;
   font-size: 44px;
   font-weight: bold;
-  color: #333;
-  text-align: left;
+  color: black;
+  text-align: center;
   text-decoration: underline;
 }
 .styled-text {
