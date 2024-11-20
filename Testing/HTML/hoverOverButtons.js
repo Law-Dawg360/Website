@@ -1,9 +1,9 @@
-const button = document.querySelector('.defualtButtonsWithStyling');
+const button2 = document.querySelector('button2');
 
-defualtButtonsWithStyling.addEventListener('mouseover', () => {
-  .defualtButtonsWithStyling.textContent = button.title;
+button2.addEventListener('mouseover', () => {
+  button2.textContent = button.title;
 });
 
-defualtButtonsWithStyling.addEventListener('mouseout', () => {
-  .defualtButtonsWithStyling.textContent = 'Hover Me';
+button2.addEventListener('mouseout', () => {
+  button2.textContent = 'Hover Me';
 });
