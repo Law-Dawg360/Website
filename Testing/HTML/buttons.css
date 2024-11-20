@@ -73,6 +73,7 @@ defualtButtons {
 .defualtButtonsWithStyling span {
 }
 
+/*
 button2 {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
@@ -95,3 +96,4 @@ button2:hover::after {
   font-size: 12px;
   white-space: nowrap;
 }
+*/
