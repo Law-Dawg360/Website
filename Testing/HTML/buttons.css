@@ -59,7 +59,7 @@ defualtButtons {
     cursor: pointer;
 }
 .defualtButtonsWithStyling {
-  background-color: #544caf;
+    background-color: #544caf;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -71,4 +71,21 @@ defualtButtons {
     cursor: pointer;
 }
 .defualtButtonsWithStyling span {
+}
+.defualtButtonsWithStyling:hover {
+  background-color: #e0e0e0;
+  color: #333;
+  cursor: pointer;
+}
+
+.defualtButtonsWithStyling:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 12px;
+  white-space: nowrap;
 }
