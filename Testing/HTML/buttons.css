@@ -72,13 +72,19 @@ defualtButtons {
 }
 .defualtButtonsWithStyling span {
 }
-.defualtButtonsWithStyling:hover {
+
+button2 {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+button2:hover {
   background-color: #e0e0e0;
   color: #333;
   cursor: pointer;
 }
-
-.defualtButtonsWithStyling:hover::after {
+button2:hover::after {
   content: attr(title);
   position: absolute;
   top: 100%;
